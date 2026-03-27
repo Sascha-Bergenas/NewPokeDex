@@ -143,6 +143,8 @@ export default function PokedexPage() {
     return <p>Loading...</p>;
   }
 
+  
+
   //äger state
   // filtrerar
   //renderar lista

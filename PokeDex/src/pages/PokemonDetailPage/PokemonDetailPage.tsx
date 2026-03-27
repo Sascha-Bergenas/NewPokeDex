@@ -126,6 +126,7 @@ export default function PokemonDetailPage() {
             onClick={() => {
               navigate(`/pokemon/${pokemon.id - 1}`);
             }}
+            disabled={pokemon.id === 1}
           >
             ⬅
           </button>
